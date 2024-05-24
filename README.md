@@ -1,30 +1,55 @@
-# React + TypeScript + Vite
+## Frontend Technical Assessment 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Overview
 
-Currently, two official plugins are available:
+We want to see your skills with React and TypeScript. You'll be given a Figma design to replicate in a Vite project using Tailwind CSS. Plus, you'll use an AirOps app to fetch and display data.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### What You'll Do
+1. **Fork the Repo**: You'll get a barebones Vite + React + TypeScript + Tailwind project. Fork it and get started.
+2. **Design Implementation**: Copy the Figma design into your project. Make it look as close as possible.
+3. **Data Integration**: [Create and use an AirOps App](https://docs.airops.com/getting-started/readme/workflow-quick-start) to fetch data and display it! 📊
 
-## Expanding the ESLint configuration
+> Note: if you need to do any create, edit or delete, it doesn’t need to persist anywhere outside of the React state.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Time Frame
+Try to finish within 3 hours. ⏰
 
-- Configure the top-level `parserOptions` property like this:
+### What We Care About
+- **Code Quality**: Clean, readable, and well-structured code. 💻
+- **Design Accuracy**: Your app should look like the Figma design. 🎨
+- **Functionality**: Your app should fetch and display data correctly. 🔄
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### How to Submit
+1. Fork our repo.
+2. Make your changes.
+3. Push to your forked repo.
+4. Share the link to your repo with us. 📤
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Tools
+- React ⚛️
+- TypeScript 📝
+- Tailwind CSS 🎨
+- Vite ⚡
+
+### Getting Started
+1. **Fork the Repo**:
+   ```bash
+   git clone [your-forked-repo-link]
+   cd [repository-directory]
+2. Install Dependencies:
+   ```bash
+   Copy code
+   npm install
+   ```
+3. Start the Dev Server:
+   ```bash
+   Copy code
+   npm run dev
+   ```
+4. Design Link: [Figma Design](https://www.figma.com/design/Tar7tYkKqTuaFdGQFgGthy/Technical-Assessment?node-id=0-1&t=F0fzk15QtPDufiX4-1)
+5. **Relevant AirOps Links**:
+    - [Workflow quick start](https://docs.airops.com/getting-started/readme/workflow-quick-start)
+    - [Client SDK](https://github.com/airopshq/airops-js)
+    - [API](https://docs.airops.com/workflow-execution/api)
+
+That's it! If you have any questions, just ask. Good luck! 🍀
