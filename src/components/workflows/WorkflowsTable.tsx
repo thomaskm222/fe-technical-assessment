@@ -56,7 +56,7 @@ export const WorkflowsTable = ({ data, isLoading }: WorkflowsTableProps) => {
           {!isLoading && data.length === 0 ? (
             <Table.Row>
               <Table.Cell className="h-24 text-center" colSpan={5}>
-                No workflows found. Create your first workflow to get started.
+                No workflows found.
               </Table.Cell>
             </Table.Row>
           ) : null}

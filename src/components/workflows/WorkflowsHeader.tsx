@@ -29,7 +29,7 @@ export const WorkflowsHeader = ({
           onChange={(event) => {
             return setSearchText(event.target.value);
           }}
-          placeholder="Filter..."
+          placeholder="Search workflows"
           value={searchText ?? ""}
         />
       </div>
